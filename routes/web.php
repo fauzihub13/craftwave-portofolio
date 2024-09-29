@@ -37,7 +37,7 @@ Route::prefix('company-profile')->group(function () {
             return view('company-profile.luxury-hotel.about');
         })->name('about');
         Route::get('/contact', function () {
-            return view('company-profile.luxury-hotel.conatact');
+            return view('company-profile.luxury-hotel.contact');
         })->name('contact');
         Route::get('/booknow', function () {
             return view('company-profile.luxury-hotel.booknow');
