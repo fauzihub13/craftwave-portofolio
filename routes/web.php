@@ -11,6 +11,9 @@ Route::prefix('landing-pages')->group(function () {
     Route::get('/prolearn', function () {
         return view('landing-pages.prolearn.index');
     });
+    Route::get('/cafe-1', function () {
+        return view('landing-pages.cafe-1.index');
+    });
 });
 
 Route::prefix('company-profile')->group(function () {
@@ -49,4 +52,5 @@ Route::prefix('custom')->group(function () {
     Route::get('/prolearn', function () {
         return view('landing-pages.prolearn.index');
     });
+
 });
