@@ -11,13 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <title>Cafe</title>
-<!--
 
-TemplateMo 558 Klassy Cafe
-
-https://templatemo.com/tm-558-klassy-cafe
-
--->
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="{{ asset ('assets/landing-pages/cafe-1/assets/css/bootstrap.min.css') }}">
 
@@ -726,9 +720,7 @@ https://templatemo.com/tm-558-klassy-cafe
                 </div>
                 <div class="col-lg-4 col-xs-12">
                     <div class="left-text-content">
-                        <p>© Copyright Klassy Cafe Co.
 
-                        <br>Design: TemplateMo</p>
                     </div>
                 </div>
             </div>
