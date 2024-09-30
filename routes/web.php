@@ -62,6 +62,34 @@ Route::prefix('company-profile')->group(function () {
         })->name('properti-1.property-single');
 
     });
+    Route::prefix('resto-1')->group(function () {
+        Route::get('/', function () {
+            return view('company-profile.resto-1.index');
+        })->name('resto-1.index');
+        Route::get('/about', function () {
+            return view('company-profile.resto-1.about');
+        })->name('resto-1.about');
+        Route::get('/contact', function () {
+            return view('company-profile.resto-1.contact');
+        })->name('resto-1.contact');
+        Route::get('/faq', function () {
+            return view('company-profile.resto-1.faq');
+        })->name('resto-1.faq');
+        Route::get('/gallery', function () {
+            return view('company-profile.resto-1.gallery');
+        })->name('resto-1.gallery');
+        Route::get('/menu', function () {
+            return view('company-profile.resto-1.menu');
+        })->name('resto-1.menu');
+        Route::get('/reservation', function () {
+            return view('company-profile.resto-1.reservation');
+        })->name('resto-1.reservation');
+        Route::get('/reviews', function () {
+            return view('company-profile.resto-1.reviews');
+        })->name('resto-1.reviews');
+
+
+    });
 
 });
 
@@ -130,22 +158,6 @@ Route::prefix('toko-online')->group(function () {
         Route::get('/shop-product-full', function () {
             return view('toko-online.agrihub.shop-product-full');
         })->name('agrihub.shop-product-full');
-        // Route::get('/shop-cart', function () {
-        //     return view('toko-online.agrihub.shop-cart');
-        // })->name('agrihub.shop-cart');
-        // Route::get('/', function () {
-        //     return view('toko-online.agrihub.');
-        // })->name('agrihub.');
-        // Route::get('/', function () {
-        //     return view('toko-online.agrihub.');
-        // })->name('agrihub.');
-        // Route::get('/', function () {
-        //     return view('toko-online.agrihub.');
-        // })->name('agrihub.');
-
-        // Route::get('/', function () {
-        //     return view('toko-online.agrihub.');
-        // })->name('agrihub.');
 
     });
 
