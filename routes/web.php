@@ -90,6 +90,39 @@ Route::prefix('company-profile')->group(function () {
 
 
     });
+    Route::prefix('travel-1')->group(function () {
+        Route::get('/', function () {
+            return view('company-profile.travel-1.index');
+        })->name('travel-1.index');
+        Route::get('/about', function () {
+            return view('company-profile.travel-1.about');
+        })->name('travel-1.about');
+        Route::get('/blog', function () {
+            return view('company-profile.travel-1.blog');
+        })->name('travel-1.blog');
+        Route::get('/blog-details', function () {
+            return view('company-profile.travel-1.blog-details');
+        })->name('travel-1.blog-details');
+        Route::get('/contact', function () {
+            return view('company-profile.travel-1.contact');
+        })->name('travel-1.contact');
+        Route::get('/destination-details', function () {
+            return view('company-profile.travel-1.destination-details');
+        })->name('travel-1.destination-details');
+        Route::get('/destination', function () {
+            return view('company-profile.travel-1.destination');
+        })->name('travel-1.destination');
+        Route::get('/tour', function () {
+            return view('company-profile.travel-1.tour');
+        })->name('travel-1.tour');
+        Route::get('/tour-details', function () {
+            return view('company-profile.travel-1.tour-details');
+        })->name('travel-1.tour-details');
+
+
+
+
+    });
 
 });
 
